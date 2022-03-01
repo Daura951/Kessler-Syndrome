@@ -1,0 +1,34 @@
+Main gameplay:
+Controls - move left, right, screen tilts
+Destroying space junk, getting upgrades like armor
+Trying to survive 
+Completing levels - 1 level = 1 orbit around the planet
+landing and take-off events - depends on gravity
+
+
+Details:
+Screen tilts as player orbits planet
+Foreground is more pixelated than background
+Start at moon, then go to marz then to mercury, ....
+If a gassy planet, then can have like floaty platforms 
+graphic showing ship going to another planet
+acceleration change as ship lands and launches
+Random junk spawning
+
+
+
+chris will do graphics
+stephanie will do the interface
+
+
+Interface Ideas 3/1/2022:
+2 Rectangular bars in bottom left
+1 is health
+1 is fuel
+
+top right has measure of gravity on each planet
+top left has some kind of indication of progress - like a graphic showing position on planet or a timeline
+bottom right has item collection? - depending on number of items in game, may have an icon representing like a bag, or just 
+an icon for each item if there are only like 3 things we are collecting
+
+
