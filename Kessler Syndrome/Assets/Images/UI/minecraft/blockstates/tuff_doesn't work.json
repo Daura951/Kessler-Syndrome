@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/tuff"
+      },
+      {
+        "model": "minecraft:block/tuff_mirrored"
+      },
+      {
+        "model": "minecraft:block/tuff",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/tuff_mirrored",
+        "y": 180
+      }
+    ]
+  }
+}
