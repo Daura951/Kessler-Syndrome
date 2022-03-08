@@ -32,3 +32,5 @@ bottom right has item collection? - depending on number of items in game, may ha
 an icon for each item if there are only like 3 things we are collecting
 
 
+Start screen:
+Random number generates to determine which background
