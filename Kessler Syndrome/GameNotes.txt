@@ -7,30 +7,31 @@ landing and take-off events - depends on gravity
 
 
 Details:
-Screen tilts as player orbits planet
+Screen tilts as player orbits planet - Need to do
 Foreground is more pixelated than background
 Start at moon, then go to marz then to mercury, ....
 If a gassy planet, then can have like floaty platforms 
 graphic showing ship going to another planet
 acceleration change as ship lands and launches
-Random junk spawning
+Random junk spawning - Need to work on
+once debris or astroid is destroyed some object spawns in its place - Need to do
+different types of fuel with different burn rates and power, different colored fuel bar indicates which type you have
+want - Need to do
 
-
-
-chris will do graphics
-stephanie will do the interface
 
 
 Interface Ideas 3/1/2022:
-2 Rectangular bars in bottom left
-1 is health
-1 is fuel
+2 Rectangular bars in bottom left  X
+1 is health			   X
+1 is fuel			   X
 
-top right has measure of gravity on each planet
-top left has some kind of indication of progress - like a graphic showing position on planet or a timeline
+top right has measure of gravity on each planet - Need to do still
+top left has some kind of indication of progress - like a graphic showing position on planet or a timeline - Have planet in bottom right
+	now need to show change
 bottom right has item collection? - depending on number of items in game, may have an icon representing like a bag, or just 
 an icon for each item if there are only like 3 things we are collecting
+	New: Going to do bullet type in middle
 
 
 Start screen:
-Random number generates to determine which background
+Random number generates to determine which background - Need to do 
