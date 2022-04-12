@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScreen.unity
     guid: abbec7d883d03d5458219c2428d9a4cd
   - enabled: 1
-    path: Assets/Scenes/1st Launch Scene.unity
-    guid: 509f2d4ab870bb24ca11a4ebefcbe518
+    path: Assets/Scenes/Level 1 Launch.unity
+    guid: 798f180227553fa4887da233d1cdb944
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: 30afb4f518f3aeb41816d2b5d60efded
