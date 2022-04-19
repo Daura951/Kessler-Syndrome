@@ -237,7 +237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 60618104}
   - component: {fileID: 60618105}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ion Exhaust 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -321,7 +321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 111889645}
   - component: {fileID: 111889646}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ion Exhaust 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 246767610}
   - component: {fileID: 246767611}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Nuclear Exhaust 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1051,7 +1051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 518802586}
   - component: {fileID: 518802587}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Liquid Exhaust 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1764,7 +1764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 709746839}
   - component: {fileID: 709746840}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ion Exhaust 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1849,7 +1849,7 @@ GameObject:
   - component: {fileID: 739508437}
   - component: {fileID: 739508436}
   - component: {fileID: 739508435}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -1932,7 +1932,7 @@ GameObject:
   m_Component:
   - component: {fileID: 741061211}
   - component: {fileID: 741061212}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ion Exhaust 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2016,7 +2016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 746097686}
   - component: {fileID: 746097687}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Solid Exhaust 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2176,7 +2176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 792673201}
   - component: {fileID: 792673202}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Solid Exhaust 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2559,7 +2559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 977567783}
   - component: {fileID: 977567784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Nuclear Exhaust 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2634,6 +2634,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1013350814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1013350815}
+  m_Layer: 6
+  m_Name: Shot Origin
+  m_TagString: SOrigin
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1013350815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013350814}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.39, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1472623998}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1065865826
 GameObject:
   m_ObjectHideFlags: 0
@@ -3227,7 +3258,8 @@ GameObject:
   - component: {fileID: 1472623995}
   - component: {fileID: 1472623999}
   - component: {fileID: 1472624000}
-  m_Layer: 0
+  - component: {fileID: 1472624001}
+  m_Layer: 6
   m_Name: Rocket
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3341,6 +3373,7 @@ Transform:
   - {fileID: 977567783}
   - {fileID: 111889645}
   - {fileID: 739508437}
+  - {fileID: 1013350815}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3374,6 +3407,20 @@ MonoBehaviour:
   curFuel: 0
   maxFuel: 100
   fuelBar: {fileID: 2098124428}
+--- !u!114 &1472624001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472623994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05090c90b254e4f4f933c6a1a0bf8f77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  shot: {fileID: 3946903935142191949, guid: 12a0f10074f83174e97d2f49c681173f, type: 3}
 --- !u!1 &1524495561
 GameObject:
   m_ObjectHideFlags: 0
@@ -3510,7 +3557,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1638721741}
   - component: {fileID: 1638721742}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Liquid Exhaust 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3803,7 +3850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1791627327}
   - component: {fileID: 1791627328}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Boosters
   m_TagString: Untagged
   m_Icon: {fileID: 0}
