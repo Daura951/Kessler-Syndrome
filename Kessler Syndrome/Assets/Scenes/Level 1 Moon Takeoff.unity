@@ -3227,6 +3227,7 @@ GameObject:
   - component: {fileID: 1472623995}
   - component: {fileID: 1472623999}
   - component: {fileID: 1472624000}
+  - component: {fileID: 1472624001}
   m_Layer: 0
   m_Name: Rocket
   m_TagString: Player
@@ -3374,6 +3375,21 @@ MonoBehaviour:
   curFuel: 0
   maxFuel: 100
   fuelBar: {fileID: 2098124428}
+--- !u!114 &1472624001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472623994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 550bc2988cde8c042be43fb3a9dd3554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curShield: 0
+  maxShield: 100
+  shieldBar: {fileID: 2033778412}
 --- !u!1 &1524495561
 GameObject:
   m_ObjectHideFlags: 0
@@ -3963,6 +3979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2033778410}
   - component: {fileID: 2033778411}
+  - component: {fileID: 2033778412}
   m_Layer: 0
   m_Name: ShieldBar
   m_TagString: Untagged
@@ -4039,10 +4056,24 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.354
+  m_Value: 0.452
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2033778412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033778409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfff02b62aa0adc48a311f2e6d5d1ca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shieldBar: {fileID: 0}
+  playerShield: {fileID: 0}
 --- !u!1 &2040236727
 GameObject:
   m_ObjectHideFlags: 0
