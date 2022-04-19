@@ -15,12 +15,75 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1 Moon Takeoff.unity
     guid: 30afb4f518f3aeb41816d2b5d60efded
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Level 1.2 Transition.unity
+    guid: e1526b498e1dabd4cbf60ea991d1ae18
   - enabled: 1
     path: Assets/Scenes/Level 2 Mars Landing.unity
     guid: b1b9166d051d39744b830ecc8c78b96d
   - enabled: 1
+    path: Assets/Scenes/Level 2.1 Launch.unity
+    guid: 3bae9a54b17bbc446b2e853fa92bba69
+  - enabled: 1
+    path: Assets/Scenes/Level 2.3 Transition.unity
+    guid: d54150da6366e0a40ba545791a0ae1c3
+  - enabled: 1
     path: Assets/Scenes/Level 3 Mercury Capture.unity
     guid: e82b77df225fa594ca941bb80a0a60ca
+  - enabled: 1
+    path: Assets/Scenes/Level 3.1 Landing.unity
+    guid: 900256e159092064c8b71435d747e387
+  - enabled: 1
+    path: Assets/Scenes/Level 3.4 Transition.unity
+    guid: 50ff29386ab05094d9b75bf54e73151e
+  - enabled: 1
+    path: Assets/Scenes/Level 4 Launch.unity
+    guid: c29482e5bf499594880573ae756ac822
+  - enabled: 1
+    path: Assets/Scenes/Level 4 Venus Takeoff.unity
+    guid: bb32abb121f7c494a864eae8b7ff821e
+  - enabled: 1
+    path: Assets/Scenes/Level 4.5 Transition.unity
+    guid: d6d406f30205c2842a2a25c0a235a96d
+  - enabled: 1
+    path: Assets/Scenes/Level 5 Uranus Landing.unity
+    guid: f3983dcefaf584a43b62e2e88ac1bbb3
+  - enabled: 1
+    path: Assets/Scenes/Level 5.1 Launch.unity
+    guid: f2917075c10883f45be422529549afba
+  - enabled: 1
+    path: Assets/Scenes/Level 5.6 Transition.unity
+    guid: 683ed37b33c0d0547bfe03a6083a4a7b
+  - enabled: 1
+    path: Assets/Scenes/Level 6 Launch.unity
+    guid: 4b3ed6aa33bbb4a49933306e5cd3064f
+  - enabled: 1
+    path: Assets/Scenes/Level 6 Neptune Takeoff.unity
+    guid: a947fe4b262b81643afac55cdfd5933b
+  - enabled: 1
+    path: Assets/Scenes/Level 6.7 Transition.unity
+    guid: ea5e715f0f89b9f44a59bb8229dca592
+  - enabled: 1
+    path: Assets/Scenes/Level 7 Saturn Rings.unity
+    guid: 5d3bb4901f6e5c448a36939aa308aa52
+  - enabled: 1
+    path: Assets/Scenes/Level 7.1 Landing.unity
+    guid: 00cd877f0d588a34f8ae66e22302e7f4
+  - enabled: 1
+    path: Assets/Scenes/Level 7.8 Transition.unity
+    guid: b55482552de38c04585f964a1d9ad44f
+  - enabled: 1
+    path: Assets/Scenes/Level 8 Jupiter Landing.unity
+    guid: 5ac05dd489a955e4da02fa639c15a477
+  - enabled: 1
+    path: Assets/Scenes/Level 8 Launch.unity
+    guid: 5ffb24cf468d87347b5635c88818d9e4
+  - enabled: 1
+    path: Assets/Scenes/Level 8.9 Transition.unity
+    guid: 7675310dc70a5334a810bdf78c6fe609
+  - enabled: 1
+    path: Assets/Scenes/Level 9 Earth Landing.unity
+    guid: c8561ba538736a3488864d13a21757a8
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Transition3 : MonoBehaviour
+public class Transition16 : MonoBehaviour
 {
 
     public float speed;
@@ -24,7 +24,7 @@ public class Transition3 : MonoBehaviour
         Debug.Log("Uwu");
         if(collision.gameObject.tag == "Finish")
         {
-            SceneManager.LoadScene(7);
+            SceneManager.LoadScene(10);
         }
     }
 }
